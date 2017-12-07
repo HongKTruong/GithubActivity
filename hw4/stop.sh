@@ -1,1 +1,1 @@
-docker stop ecs189_proxy_1 ecs189_web1_1 ecs189_web2_1
+docker rm -f $(docker ps -a -q)
