@@ -1,9 +1,4 @@
 #/bin/bash
-# docker ps -a  > /tmp/yy_xx$$
-# if grep --quiet "web1" /tmp/yy_xx$$
-# docker ps --filter "name=web"  > /tmp/yy_xx$$
-# if (docker ps --filter "name=web1" | grep $1)
-
 function killitif {
     docker ps -a  > /tmp/yy_xx$$
     if grep --quiet $1 /tmp/yy_xx$$

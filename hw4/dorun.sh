@@ -1,5 +1,4 @@
 #/bin/bash
-
 function killitif {
     docker ps -a  > /tmp/yy_xx$$
     if grep --quiet $1 /tmp/yy_xx$$
