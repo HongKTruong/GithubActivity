@@ -4,6 +4,7 @@ services:
     ports:
      - "8080"
     image: activity
+    container_name: web1
   proxy:
     ports:
      - "8888:8888"
